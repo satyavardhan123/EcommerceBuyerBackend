@@ -43,7 +43,7 @@ public class BuyerServiceImpl implements BuyerService{
 		if(b2.getPassword().equals(login.getPassword())) {
 			return "logged in";
 		}
-		return "error";
+		return "wrong password";
 	}
 
 	@Override
